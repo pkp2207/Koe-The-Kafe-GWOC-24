@@ -142,6 +142,16 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide
 
 window.addEventListener("load", autoSlide);
 
+
+
+var swiper = new Swiper(".special_swiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+
 //menu swipper
 var swiper = new Swiper(".menu_swipper", {
   slidesPerView: 3,
@@ -204,8 +214,6 @@ for(let btn of closebtn){
     head.style.visibility = "visible";
   });
 }
-
-
 
 /**
  * TESTIMONIAL SLIDER
