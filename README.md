@@ -1,2 +1,4 @@
-# Koe-The-Kafe-GWOC-24
-Team Name:- Winter Wizards 
+# Koe-The-Kafe-Winter-Wizards
+Team Winter Wizards
+Koe - The Kafe
+Google Winter of Code'24
