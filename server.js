@@ -65,7 +65,7 @@ app.post('/adm', async (req, res) => {
 });
 app.post('/del', async (req, res) => {
 
-  await Cafe.deleteOne({ _id: req.body.n1 });
+  await Cafe.deleteOne({ n1: req.body.n1 });
 
   console.log(req.body);
   await Cafe.find({}).then((x) => { res.render('loged', { x }); });
