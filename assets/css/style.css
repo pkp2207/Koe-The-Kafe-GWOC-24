@@ -1591,6 +1591,7 @@ body.popup .menu-container {
   box-shadow: 0 0 10px rgba(141, 123, 123, 0.1);
   background-color: #1a1a1a; /* Dark background color */
   color: white; /* Text color */
+  overflow-x: hidden;
 }
 
 #pairingResult {
@@ -1627,7 +1628,7 @@ body.popup .menu-container {
 
 .about-banner {
   position: relative;
-  margin-block-end: 8rem;
+  /* margin-block-end: 8rem; */
 }
 
 .about-banner>.w-100 {
@@ -2348,6 +2349,20 @@ textarea.input-field {
     height: 40rem;
   }
 
+
+  .hero .slider-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero .slider-btn ion-icon {
+    transform: rotate(-45deg);
+  }
+
+  .hero .slider-btn.next{
+    right: 2%;
+    top: 51%;
+  }
 }
 
 @media (min-width: 575px) {
@@ -2466,6 +2481,15 @@ textarea.input-field {
 
   .hero-btn {
     transform: scale(0.7);
+  }
+
+  .hero .slider-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero .slider-btn ion-icon {
+    transform: rotate(-45deg);
   }
 
   /*menu-section images*/
@@ -2701,18 +2725,8 @@ textarea.input-field {
    */
 
   .hero .slider-btn {
-    display: grid;
-    position: absolute;
-    z-index: 1;
-    color: var(--gold-crayola);
-    font-size: 2.4rem;
-    border: 1px solid var(--gold-crayola);
     width: 45px;
     height: 45px;
-    place-items: center;
-    top: 50%;
-    transform: translateY(-50%) rotate(45deg);
-    transition: var(--transition-1);
   }
 
   .hero .slider-btn ion-icon {
@@ -3771,8 +3785,8 @@ img {
 
 .combine-bread-and-cheese{
   display: flex;
-  /* gap: 30%; */
-  justify-content: space-around;
+  gap: 10%;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
