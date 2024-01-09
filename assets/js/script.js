@@ -149,6 +149,11 @@ var swiper = new Swiper(".special_swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  loop: true,
+  speed: 1000,
+  autoplay:{
+   delay:2000,
+  },
 });
 
 
