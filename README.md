@@ -1,6 +1,6 @@
 # Koe-The-Kafe-Winter-Wizards
 
-Site deployed at : https://koe-winter-wiz.onrender.com/
+Site deployed at : https://koe-the-cafe-winter-wiz.onrender.com/
 
 
 Team Winter Wizards
