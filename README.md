@@ -13,10 +13,4 @@ Google Winter of Code'24
 
 
 
-For Admin Login page:-
-
-
-Name: akshat
-
-
-Password: cafe
+Video Presentation :- https://drive.google.com/file/d/1Qvl-ZtfumLJidnD-OUsrGblmt2jtcSfV/view
