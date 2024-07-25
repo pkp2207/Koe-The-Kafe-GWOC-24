@@ -3,7 +3,7 @@ Deployment Link - [Koe the Cafe  Website!](https://koe-the-cafe.onrender.com)
 
 # Koe the Cafe
 
-Welcome to Koe the Cafe's Koe the Café is a full-stack web application. This project showcases a café management system with extensive features for both users and administrators. With a strong emphasis on frontend aesthetics and functionality, Koe the Cafe offers a delightful journey for visitors.
+Welcome to Koe the Cafe's full-stack web application. This project showcases a café management system with extensive features for both users and administrators. With a strong emphasis on frontend aesthetics and functionality, Koe the Cafe offers a delightful journey for visitors.
 
 ## Key Features
 
